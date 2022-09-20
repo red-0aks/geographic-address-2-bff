@@ -1,21 +1,28 @@
 package cl.wom.msbff.dto;
 
-
 import lombok.Data;
 
-/**
- * The Class Commune.
- *
- * @author nttdata
- */
 @Data
 public class CommuneDTO {
 
-    /** The id. */
-    private Integer id;
-    
-    /** The name. */
+    private String id;
+
+    private String code;
+
     private String name;
-    
+
+    private String locality;
+
+    private String portabilityCode;
+
+    private Boolean shippingAvailability;
+
+    private String cityId;
+
+    private String cityName;
+
+    private String provinceId;
+
+    private String provinceName;
 
 }

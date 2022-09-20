@@ -1,0 +1,14 @@
+{
+   "configurations": [
+      {
+         "type": "java",
+         "name": "Spring Boot-GeographicAddressApplication<msbff>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "mainClass": "cl.wom.msbff.GeographicAddressApplication",
+         "projectName": "msbff",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      }
+   ]
+}
